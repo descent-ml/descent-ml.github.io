@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.descent-ml.github.io/about/</loc>
+    <lastmod>2019-06-08T16:43:23+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.descent-ml.github.io/categories/</loc>
     <priority>0</priority>
   </url>
