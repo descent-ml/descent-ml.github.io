@@ -225,19 +225,7 @@
       <description>
 
 
-&lt;p&gt;This post examines the features of &lt;a href=&#34;http://www.rstudio.org/docs/authoring/using_markdown&#34;&gt;R Markdown&lt;/a&gt;
-using &lt;a href=&#34;http://yihui.name/knitr/&#34;&gt;knitr&lt;/a&gt; in Rstudio 0.96.
-This combination of tools provides an exciting improvement in usability for
-&lt;a href=&#34;http://stats.stackexchange.com/a/15006/183&#34;&gt;reproducible analysis&lt;/a&gt;.
-Specifically, this post
-(1) discusses getting started with R Markdown and &lt;code&gt;knitr&lt;/code&gt; in Rstudio 0.96;
-(2) provides a basic example of producing console output and plots using R Markdown;
-(3) highlights several code chunk options such as caching and controlling how input and output is displayed;
-(4) demonstrates use of standard Markdown notation as well as the extended features of formulas and tables; and
-(5) discusses the implications of R Markdown.
-This post was produced with R Markdown. The source code is available here as a gist.
-The post may be most useful if the source code and displayed post are viewed side by side.
-In some instances, I include a copy of the R Markdown in the displayed HTML, but most of the time I assume you are reading the source and post side by side.&lt;/p&gt;
+&lt;p&gt;This post examines the features of &lt;a href=&#34;http://www.rstudio.org/docs/authoring/using_markdown&#34;&gt;R Markdown&lt;/a&gt; using &lt;a href=&#34;http://yihui.name/knitr/&#34;&gt;knitr&lt;/a&gt; in Rstudio 0.96. This combination of tools provides an exciting improvement in usability for &lt;a href=&#34;http://stats.stackexchange.com/a/15006/183&#34;&gt;reproducible analysis&lt;/a&gt;. Specifically, this post (1) discusses getting started with R Markdown and &lt;code&gt;knitr&lt;/code&gt; in Rstudio 0.96; (2) provides a basic example of producing console output and plots using R Markdown; (3) highlights several code chunk options such as caching and controlling how input and output is displayed; (4) demonstrates use of standard Markdown notation as well as the extended features of formulas and tables; and (5) discusses the implications of R Markdown. This post was produced with R Markdown. The source code is available here as a gist. The post may be most useful if the source code and displayed post are viewed side by side. In some instances, I include a copy of the R Markdown in the displayed HTML, but most of the time I assume you are reading the source and post side by side.&lt;/p&gt;
 &lt;!-- more --&gt;
 &lt;div id=&#34;getting-started&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Getting started&lt;/h2&gt;
@@ -440,8 +428,7 @@ plot(x, y)
 &lt;/div&gt;
 &lt;div id=&#34;control-output-display&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Control output display&lt;/h3&gt;
-&lt;p&gt;The folllowing code supresses display of R input commands (i.e., &lt;code&gt;echo=FALSE&lt;/code&gt;)
-and removes any preceding text from console output (&lt;code&gt;comment=&amp;quot;&amp;quot;&lt;/code&gt;; the default is &lt;code&gt;comment=&amp;quot;##&amp;quot;&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;The folllowing code supresses display of R input commands (i.e., &lt;code&gt;echo=FALSE&lt;/code&gt;) and removes any preceding text from console output (&lt;code&gt;comment=&amp;quot;&amp;quot;&lt;/code&gt;; the default is &lt;code&gt;comment=&amp;quot;##&amp;quot;&lt;/code&gt;).&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;```
   x    y
 1 1 0.52
@@ -472,10 +459,7 @@ plot(x)
 &lt;/div&gt;
 &lt;div id=&#34;cache-analysis&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Cache analysis&lt;/h3&gt;
-&lt;p&gt;Caching analyses is straightforward.
-Here’s example code.
-On the first run on my computer, this took about 10 seconds.
-On subsequent runs, this code was not run.&lt;/p&gt;
+&lt;p&gt;Caching analyses is straightforward. Here’s example code. On the first run on my computer, this took about 10 seconds. On subsequent runs, this code was not run.&lt;/p&gt;
 &lt;p&gt;If you want to rerun cached code chunks, just &lt;a href=&#34;http://stackoverflow.com/a/10629121/180892&#34;&gt;delete the contents of the &lt;code&gt;cache&lt;/code&gt; folder&lt;/a&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;```r
 for (i in 1:5000) {
@@ -486,8 +470,7 @@ for (i in 1:5000) {
 &lt;/div&gt;
 &lt;div id=&#34;basic-markdown-functionality&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Basic markdown functionality&lt;/h2&gt;
-&lt;p&gt;For those not familiar with standard &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;, the following may be useful.
-See the source code for how to produce such points. However, RStudio does include a Markdown quick reference button that adequatly covers this material.&lt;/p&gt;
+&lt;p&gt;For those not familiar with standard &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt;, the following may be useful. See the source code for how to produce such points. However, RStudio does include a Markdown quick reference button that adequatly covers this material.&lt;/p&gt;
 &lt;div id=&#34;dot-points&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Dot Points&lt;/h3&gt;
 &lt;p&gt;Simple dot points:&lt;/p&gt;
@@ -518,15 +501,11 @@ See the source code for how to produce such points. However, RStudio does includ
 &lt;/div&gt;
 &lt;div id=&#34;equations&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Equations&lt;/h3&gt;
-&lt;p&gt;Equations are included by using LaTeX notation and including them either between single dollar signs (inline equations) or double dollar signs (displayed equations).
-If you hang around the Q&amp;amp;A site &lt;a href=&#34;http://stats.stackexchange.com&#34;&gt;CrossValidated&lt;/a&gt; you’ll be familiar with this idea.&lt;/p&gt;
+&lt;p&gt;Equations are included by using LaTeX notation and including them either between single dollar signs (inline equations) or double dollar signs (displayed equations). If you hang around the Q&amp;amp;A site &lt;a href=&#34;http://stats.stackexchange.com&#34;&gt;CrossValidated&lt;/a&gt; you’ll be familiar with this idea.&lt;/p&gt;
 &lt;p&gt;There are inline equations such as &lt;span class=&#34;math inline&#34;&gt;\(y_i = \alpha + \beta x_i + e_i\)&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;And displayed formulas:&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\frac{1}{1+\exp(-x)}\]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;knitr provides self-contained HTML code that calls a Mathjax script to display formulas.
-However, in order to include the script in my blog posts I &lt;a href=&#34;https://gist.github.com/2716053&#34;&gt;took the script&lt;/a&gt; and incorporated it into my blogger template.
-If you are viewing this post through syndication or an RSS reader, this may not work.
-You may need to view this post on my website.&lt;/p&gt;
+&lt;p&gt;knitr provides self-contained HTML code that calls a Mathjax script to display formulas. However, in order to include the script in my blog posts I &lt;a href=&#34;https://gist.github.com/2716053&#34;&gt;took the script&lt;/a&gt; and incorporated it into my blogger template. If you are viewing this post through syndication or an RSS reader, this may not work. You may need to view this post on my website.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;tables&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Tables&lt;/h3&gt;
@@ -584,9 +563,7 @@ x
 &lt;h3&gt;Quote&lt;/h3&gt;
 &lt;p&gt;Let’s quote some stuff:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;To be, or not to be, that is the question:
-Whether ’tis nobler in the mind to suffer
-The slings and arrows of outrageous fortune,&lt;/p&gt;
+&lt;p&gt;To be, or not to be, that is the question: Whether ’tis nobler in the mind to suffer The slings and arrows of outrageous fortune,&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -611,29 +588,23 @@ The slings and arrows of outrageous fortune,&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;http://christophergandrud.blogspot.com.au/2012/05/dynamic-content-with-rstudio-markdown.html&#34;&gt;Christopher Gandrud&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://lamages.blogspot.com.au/2012/05/interactive-reports-in-r-with-knitr-and.html&#34;&gt;Markcus Gesmann&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://rstudio.org/docs/authoring/using_markdown&#34;&gt;Rstudio on R Markdown&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://yihui.name/knitr/&#34;&gt;Yihui Xie&lt;/a&gt;: I really want to thank him for developing &lt;code&gt;knitr&lt;/code&gt;.
-He has also posted &lt;a href=&#34;https://github.com/yihui/knitr/blob/master/inst/examples/knitr-minimal.Rmd&#34;&gt;this example of R Markdown&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://yihui.name/knitr/&#34;&gt;Yihui Xie&lt;/a&gt;: I really want to thank him for developing &lt;code&gt;knitr&lt;/code&gt;. He has also posted &lt;a href=&#34;https://github.com/yihui/knitr/blob/master/inst/examples/knitr-minimal.Rmd&#34;&gt;this example of R Markdown&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div id=&#34;questions&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Questions&lt;/h2&gt;
-&lt;p&gt;The following are a few questions I encountered along the way that might interest others.
-### Annoying &lt;code&gt;&amp;lt;br/&amp;gt;&lt;/code&gt;’s
-&lt;strong&gt;Question:&lt;/strong&gt; I asked on the Rstudio discussion site:
-&lt;a href=&#34;http://support.rstudio.org/help/discussions/problems/2329-why-does-r-markdown-to-html-insert-br-when-there-is-a-new-line-of-text&#34;&gt;Why does Markdown to HTML insert &lt;code&gt;&amp;lt;br/&amp;gt;&lt;/code&gt; on new lines?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The following are a few questions I encountered along the way that might interest others. ### Annoying &lt;code&gt;&amp;lt;br/&amp;gt;&lt;/code&gt;’s &lt;strong&gt;Question:&lt;/strong&gt; I asked on the Rstudio discussion site: &lt;a href=&#34;http://support.rstudio.org/help/discussions/problems/2329-why-does-r-markdown-to-html-insert-br-when-there-is-a-new-line-of-text&#34;&gt;Why does Markdown to HTML insert &lt;code&gt;&amp;lt;br/&amp;gt;&lt;/code&gt; on new lines?&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; I just do a find and delete on this text for now.&lt;/p&gt;
 &lt;div id=&#34;temporarily-disable-caching&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Temporarily disable caching&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Question:&lt;/strong&gt; I asked on StackOverflow about
-&lt;a href=&#34;http://stackoverflow.com/q/10628665/180892&#34;&gt;How to set cache=FALSE for a knitr markdown document and override code chunk settings?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Question:&lt;/strong&gt; I asked on StackOverflow about &lt;a href=&#34;http://stackoverflow.com/q/10628665/180892&#34;&gt;How to set cache=FALSE for a knitr markdown document and override code chunk settings?&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Delete the cache folder. But there are other possible workflows.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;equivalent-of-sexpr&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Equivalent of Sexpr&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Question:&lt;/strong&gt; I asked on Stack Overvlow about &lt;a href=&#34;http://stackoverflow.com/q/10629416/180892&#34;&gt;whether there an R Markdown equivalent to Sexpr in Sweave?&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Include the code between brackets of “backick r space” and “backtick”.
-E.g., in the source code I have calculated 2 + 2 = 4 .&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Include the code between brackets of “backick r space” and “backtick”. E.g., in the source code I have calculated 2 + 2 = 4 .&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </description>
