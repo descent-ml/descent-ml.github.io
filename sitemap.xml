@@ -46,6 +46,11 @@
   </url>
   
   <url>
+    <loc>/blog/r-markdown/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/resources/ml/</loc>
     <priority>0</priority>
   </url>
