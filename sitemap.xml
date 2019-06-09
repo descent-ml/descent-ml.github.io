@@ -30,6 +30,11 @@
   </url>
   
   <url>
+    <loc>/blog/r-markdown/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -43,11 +48,6 @@
   
   <url>
     <loc>/authors/jia/</loc>
-  </url>
-  
-  <url>
-    <loc>/blog/r-markdown/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
