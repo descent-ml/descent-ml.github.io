@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>descent.ml</title>
-    <link>/</link>
-    <description>Recent content on descent.ml</description>
+    <title>Resource-lists on descent.ml</title>
+    <link>/resource-lists/</link>
+    <description>Recent content in Resource-lists on descent.ml</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year} - descent.ml</copyright>
     
-	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/resource-lists/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,34 +18,6 @@
       
       <guid>/resource-lists/deep-learning/</guid>
       <description>&lt;p&gt;&lt;details&gt;
-&lt;summary&gt;🎥 deeplearning.ai&lt;/summary&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Description - Deep Learning specialization on Coursera by Andrew Ng.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Review - This speciaization is a great introduction to deep learning! Andrew Ng is able to convey a lot of information throughout each of the 5 courses without causing students to get bogged down by the nitty gritties of the subject matter. This approach of providing a layer of abstraction carries over to the assigments and quizzes sometimes making them too simple to do. But all in all, this specializaition is a great way to get into deep learning and Andrew sharing insights about his thought process of tackling problems make the specialization worth taking by itself.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Link - &lt;a href=&#34;https://www.coursera.org/specializations/deep-learning&#34; target=&#34;_blank&#34;&gt;https://www.coursera.org/specializations/deep-learning&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/details&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Resources</title>
-      <link>/resources/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/resources/</guid>
-      <description>
-
-&lt;p&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;
-HAHAHUGOSHORTCODE-TOC0-HBHB&lt;/p&gt;
-
-&lt;h1 id=&#34;deep-learning&#34;&gt;Deep Learning&lt;/h1&gt;
-
-&lt;p&gt;&lt;details&gt;
 &lt;summary&gt;🎥 deeplearning.ai&lt;/summary&gt;&lt;/p&gt;
 
 &lt;ul&gt;

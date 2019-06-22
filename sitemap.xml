@@ -11,6 +11,10 @@
   </url>
   
   <url>
+    <loc>/resource-lists/deep-learning/</loc>
+  </url>
+  
+  <url>
     <loc>/authors/</loc>
     <priority>0</priority>
   </url>
@@ -30,6 +34,11 @@
   
   <url>
     <loc>/publication_types/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/resource-lists/</loc>
     <priority>0</priority>
   </url>
   
